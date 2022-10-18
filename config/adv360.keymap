@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp GRAVE  &kp N1        &kp N2  &kp N3  &kp N4     &kp N5            &tog 1             &mo 3          &kp N6     &kp N7     &kp N8           &kp N9             &kp N0  &kp BACKSPACE
-   &kp TAB   &kp Q         &kp W   &kp E   &kp R      &kp T             &none             &none           &kp Y      &kp U      &kp I            &kp O              &kp P       &kp BSLH
-   &kp ESC   &kp A         &kp S   &kp D   &kp F      &kp G             &none  &kp LEFT_COMMAND  &kp LEFT_ARROW                        &kp RIGHT_ARROW  &kp RIGHT_COMMAND          &none     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
- &kp LSHFT   &kp Z         &kp X   &kp C   &kp V      &kp B             &none             &none        &kp HOME      &none      &none        &kp PG_UP              &none          &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
- &kp LCTRL   &mo 2  &kp LEFT_ALT   &mo 1   &mo 0  &kp SPACE             &mo 2      &kp LEFT_ALT   &kp RIGHT_ALT  &kp ENTER  &kp SPACE           &kp UP           &kp DOWN       &kp LBKT  &kp RBKT   &mo 2
+ &kp GRAVE  &kp N1        &kp N2  &kp N3  &kp N4     &kp N5                      &tog 1         &mo 3          &kp N6             &kp N7     &kp N8           &kp N9             &kp N0  &kp BACKSPACE
+   &kp TAB   &kp Q         &kp W   &kp E   &kp R      &kp T                       &none         &none           &kp Y              &kp U      &kp I            &kp O              &kp P       &kp BSLH
+   &kp ESC   &kp A         &kp S   &kp D   &kp F      &kp G                       &none         &mo 2  &kp LEFT_ARROW                                &kp RIGHT_ARROW  &kp RIGHT_COMMAND          &none     &kp H   &kp J      &kp K    &kp L  &kp SEMI  &kp RETURN
+ &kp LSHFT   &kp Z         &kp X   &kp C   &kp V      &kp B                       &none         &none        &kp HOME              &none      &none        &kp PG_UP              &none          &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp RSHFT
+ &kp LCTRL   &mo 2  &kp LEFT_ALT   &mo 1   &mo 0  &kp SPACE            &kp LEFT_COMMAND  &kp LEFT_ALT   &kp RIGHT_ALT  &kp RIGHT_COMMAND  &kp SPACE           &kp UP           &kp DOWN       &kp LBKT  &kp RBKT   &mo 2
             >;
         };
 
@@ -59,11 +59,11 @@
 
         layer_Braces {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1   &mo 3  &kp F7                &kp F8                 &kp F9    &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                                                  &trans   &trans    &none  &trans    &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp PLUS     &trans   &none
- &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans                 &none                  &none     &trans    &none    &none  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp MINUS  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                &trans                 &trans     &trans   &trans   &trans  &trans            &trans
+ &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1   &mo 3            &kp F7                &kp F8                 &kp F9    &kp F10  &kp F11  &kp F12
+ &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans            &trans                                                  &trans   &trans    &none  &kp DOUBLE_QUOTES    &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp PLUS     &trans   &none
+ &trans  &trans  &trans  &trans  &trans  &trans             &none   &none            &trans                 &none                  &none     &trans    &none    &none          &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp MINUS  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans            &trans                &trans                 &trans     &trans   &trans   &trans             &trans            &trans
             >;
         };
 
