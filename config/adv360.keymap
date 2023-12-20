@@ -51,7 +51,7 @@
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                                 &none   &kp Y  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &kp EQUAL  &kp KP_MINUS    &kp F12
    &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H        &kp LEFT_BRACE        &kp RIGHT_BRACE    &kp PLUS   &kp KP_PLUS    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp MINUS  &kp KP_ENTER  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0                        &kp UP               &kp DOWN  &kp KP_DOT      &kp RBKT      &mo 2
+     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE                        &kp UP               &kp DOWN  &kp KP_DOT      &kp RBKT      &mo 2
             >;
         };
 
